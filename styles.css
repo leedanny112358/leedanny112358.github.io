@@ -1,94 +1,138 @@
-body{
-    background-color: #FFC886;
+body {
+  background-color: #f5ce7c;
 }
+
 h1 {
-    color:#0FCDE7;
-    font-size: 8vw;
-    font-family: 'Playfair Display', serif;
-    text-align: center;
-    font-weight: normal;
-    margin: 0px;
+  color: #0fcde7;
+  font-size: 8vw;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  font-weight: normal;
+  margin: 0px;
 }
 
-.navigation{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+h2 {
+  color: #0fcde7;
+  font-size: 4vw;
+  font-family: "Playfair Display", serif;
+  font-weight: normal;
+  margin: 0px;
 }
 
-.navigation a{
-    color:#0FCDE7;
-    font-size: 5vw;
-    font-family: 'Playfair Display', serif;
-    text-decoration: none;
+.home {
+  color: #0fcde7 !important ;
+  font-size: 8vw;
+  font-family: "Playfair Display", serif;
+  text-decoration: none !important ;
 }
 
-.home-img{
-    display: block;
-    margin: 0 auto;
-    width: 25vw;
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 
-
-
-
-.chalk-writing{
-    width: 15vw;
-    text-align: center;
-    font-size: 3vw;
-    font-family: 'Indie Flower', cursive;
-    color: white;
+.row {
+  display: flex;
 }
 
-#wall-writing-top{
-    display: flex;
-    flex-direction: row;
-    flex-basis: 0;
-    justify-content: space-evenly;
-    align-items: center;
+.content {
+  width: 75vw;
+  margin: 100px auto;
 }
 
-#wall-writing-bottom{
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: flex-start;
-}
-.chalk-writing-bottom{
-    width: 30vw;
-    text-align: center;
-    font-size: 2vw;
-    font-family: 'Indie Flower', cursive;
-    color: white;
+.navigation a {
+  color: #0fcde7;
+  font-size: 5vw;
+  font-family: "Playfair Display", serif;
+  text-decoration: none;
 }
 
-#hey-text{
-    position: relative;
-    bottom: 9vw;
-    left: 7vw;
-    transform: rotate(-10deg);
+.portfolio-img {
+  display: block;
+  width: 15vw;
+  margin: 25px;
+  border-radius: 30px;
 }
 
-#mabo-arrow{
-    position: relative;
-    bottom: 6vw;
-    left: 14vw;
-    width: 12vw;
-    height: auto;
-    transform: scaleX(-1) rotate(58deg);
+.current-section {
+  color: #0d9caf !important ;
 }
 
-#thats-me-text{
-    position: relative;
-    top: 2em;
-    transform: rotate(25deg);
+.home-img {
+  display: block;
+  margin: 0 auto;
+  width: 25vw;
 }
 
-#thats-me-arrow{
-    position: relative;
-    right: 8vw;
-    width: 15vw;
-    height: auto;
-    transform: rotate(180deg);
+.chalk-writing {
+  width: 15vw;
+  text-align: center;
+  font-size: 3vw;
+  font-family: "Indie Flower", cursive;
+  color: white;
+}
+
+.chalk-writing-description {
+  font-size: 2vw;
+  font-family: "Indie Flower", cursive;
+  color: white;
+}
+
+#wall-writing-top {
+  display: flex;
+  flex-direction: row;
+  flex-basis: 0;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#wall-writing-bottom {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.chalk-writing-bottom {
+  width: 30vw;
+  text-align: center;
+  font-size: 2vw;
+  font-family: "Indie Flower", cursive;
+  color: white;
+}
+
+#hey-text {
+  position: relative;
+  bottom: 9vw;
+  left: 2vw;
+  transform: rotate(-10deg);
+}
+
+#mabo-arrow {
+  position: relative;
+  bottom: 6vw;
+  left: 14vw;
+  width: 12vw;
+  height: auto;
+  transform: scaleX(-1) rotate(58deg);
+}
+
+#thats-me-text {
+  position: relative;
+  top: 1em;
+  transform: rotate(25deg);
+}
+
+#thats-me-arrow {
+  position: relative;
+  right: 8vw;
+  width: 15vw;
+  height: auto;
+  transform: rotate(180deg);
+}
+
+p {
+  margin: 0;
+  padding: 0;
 }
