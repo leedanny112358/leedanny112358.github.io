@@ -34,6 +34,7 @@ h2 {
 
 .row {
   display: flex;
+  margin-bottom: ;
 }
 
 .content {
@@ -41,7 +42,7 @@ h2 {
   margin: 100px auto;
 }
 
-.navigation a {
+a {
   color: #0fcde7;
   font-size: 5vw;
   font-family: "Playfair Display", serif;
@@ -51,6 +52,7 @@ h2 {
 .portfolio-img {
   display: block;
   width: 15vw;
+  height: 15vw;
   margin: 25px;
   border-radius: 30px;
 }
@@ -95,7 +97,7 @@ h2 {
   align-items: flex-start;
 }
 .chalk-writing-bottom {
-  width: 30vw;
+  width: 50vw;
   text-align: center;
   font-size: 2vw;
   font-family: "Indie Flower", cursive;
