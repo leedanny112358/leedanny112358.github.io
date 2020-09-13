@@ -12,23 +12,119 @@ body {
 .navtags {
   margin-right: 10px;
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 6vw;
   color: #0fcde7;
 }
 
-img {
-  max-width: 100%;
+.bottags {
+  text-align: right;
+  text-decoration: none;
+  font-size: 30px;
+  color: #0fcde7;
+}
+
+.home-img {
+  display: block;
+  width: 90%;
+  margin: 0px auto;
 }
 
 p {
   font-size: 30px;
   font-family: "Indie Flower", cursive;
   color: rgb(233, 255, 251);
-  margin-top: 50px;
+  margin: 0px;
 }
 
 .mabo {
   color: #0fcde7 !important;
   font-family: "Playfair Display", serif !important;
   font-weight: normal !important;
+}
+
+.bio {
+  margin-bottom: 40px;
+}
+
+.bottomcontent {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 480px) {
+  .content {
+    width: 75%;
+    margin: 0px auto;
+  }
+
+  p {
+    font-size: 35px;
+  }
+
+  .navtags {
+    margin-right: 20px;
+  }
+
+  .bottags {
+    font-size: 35px;
+  }
+  .home-img {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 730px) {
+  .navigation {
+    margin: 0px 40px 20px;
+  }
+
+  .bottomcontent {
+    display: inline-block;
+    width: 50%;
+  }
+  .home-img {
+    width: 265px;
+    display: inline;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  p {
+    font-size: 50px;
+  }
+
+  .navtags {
+    margin-right: 40px;
+  }
+  .bottags {
+    font-size: 50px;
+  }
+  .navigation {
+    margin-bottom: 40px;
+  }
+  .home-img {
+    width: 365px;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .navigation {
+    margin-bottom: 0px;
+  }
+
+  .bottomcontent {
+    margin-bottom: 0px;
+  }
+
+  p {
+    font-size: 65px;
+  }
+
+  .home-img {
+    width: 450px;
+  }
+
+  .navtags {
+    font-size: 92px;
+  }
 }
