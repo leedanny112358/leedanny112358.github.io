@@ -20,7 +20,7 @@ body {
 .bottags {
   text-align: right;
   text-decoration: none;
-  font-size: 30px;
+  font-size: 1em;
   color: #0fcde7;
 }
 
@@ -45,6 +45,11 @@ p {
 
 .bio {
   margin-bottom: 40px;
+}
+
+.about {
+  font-size: 25px;
+  margin-bottom: 30px;
 }
 
 .bottomcontent {
@@ -84,9 +89,6 @@ p {
     margin-right: 20px;
   }
 
-  .bottags {
-    font-size: 35px;
-  }
   .home-img {
     width: 100%;
   }
@@ -109,6 +111,10 @@ p {
     width: 265px;
     display: inline;
   }
+
+  .about {
+    font-size: 30px;
+  }
 }
 
 @media screen and (min-width: 1196px) {
@@ -119,9 +125,7 @@ p {
   .navtags {
     margin-right: 40px;
   }
-  .bottags {
-    font-size: 50px;
-  }
+
   .navigation {
     margin-bottom: 40px;
   }
@@ -132,6 +136,20 @@ p {
 
   .home-img {
     width: 320px;
+  }
+
+  .grid {
+    width: 75%;
+    margin: 0px auto;
+  }
+
+  .about {
+    font-size: 38px;
+  }
+
+  .about-page {
+    display: inline-block;
+    width: 800px;
   }
 }
 
