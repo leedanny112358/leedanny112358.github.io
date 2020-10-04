@@ -24,6 +24,13 @@ body {
   color: #0fcde7;
 }
 
+.project-link {
+  font-size: 3em;
+  color: #0fcde7;
+  text-decoration: none;
+  width: 300px;
+}
+
 .home-img {
   display: block;
   width: 90%;
