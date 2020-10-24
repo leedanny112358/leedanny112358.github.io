@@ -17,6 +17,12 @@ body {
   color: #0fcde7;
 }
 
+.headings {
+  color: #0fcde7;
+  font-weight: lighter;
+  font-size: 5em;
+}
+
 .bottags {
   text-align: right;
   text-decoration: none;
@@ -68,7 +74,6 @@ p {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 1rem;
-  justify-items: center;
 }
 
 .portfolio-img {
@@ -81,6 +86,12 @@ p {
 }
 
 /* RESPONSIVE MEDIA QUERIES BELOW */
+
+@media screen and (min-width: 360px) {
+  .grid {
+    justify-items: center;
+  }
+}
 
 @media screen and (min-width: 480px) {
   .content {
@@ -98,6 +109,10 @@ p {
 
   .home-img {
     width: 100%;
+  }
+
+  .grid {
+    justify-items: start;
   }
 }
 
@@ -143,11 +158,6 @@ p {
 
   .home-img {
     width: 320px;
-  }
-
-  .grid {
-    width: 75%;
-    margin: 0px auto;
   }
 
   .about {
