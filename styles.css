@@ -21,6 +21,7 @@ body {
   color: #0fcde7;
   font-weight: lighter;
   font-size: 5em;
+  margin: 0 0 20px 0;
 }
 
 .bottags {
@@ -72,8 +73,13 @@ p {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, 300px);
+  grid-gap: 2rem;
+  justify-content: left;
+}
+
+.card {
+  margin-bottom: 2rem;
 }
 
 .portfolio-img {
@@ -89,7 +95,7 @@ p {
 
 @media screen and (min-width: 360px) {
   .grid {
-    justify-items: center;
+    justify-items: left;
   }
 }
 
@@ -109,10 +115,6 @@ p {
 
   .home-img {
     width: 100%;
-  }
-
-  .grid {
-    justify-items: start;
   }
 }
 
